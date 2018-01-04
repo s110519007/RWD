@@ -1,0 +1,475 @@
+/* Start of css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of css reset */
+
+
+header {
+  width: 1260px;
+  height: 340px;
+  background-color: #ffaf51;
+}
+
+.icon-set {
+  float: right ;
+  margin-top: 113px;
+  margin-right: 125px;
+}
+
+#home {
+  margin-right: 14px;
+}
+
+#placeholder {
+  margin-right: 17px;
+}
+
+.logo-set {
+  float: left;
+  margin-top: 157px;
+  margin-left: 114px;
+}
+
+.logo-set h1 {
+  float: right;
+  margin-top: 19px;
+  margin-left: 5px;
+	font-family: "Adobe Fan Heiti Std B";
+	font-size: 80px;
+	text-align: left;
+	color: #ffdeb8;
+	-webkit-text-stroke: 3px #864900;
+}
+
+nav {
+  float: left;
+  margin-top: 49px;
+  margin-left: 115px;
+}
+.menu{
+	display: none;
+}
+.nav-item {
+  float: left;
+  width: 150px;
+  height: 60px;
+  background-color: #ffdeb8;
+  margin-right: 19px;
+}
+
+.nav-end {
+  margin-right: 0;
+}
+
+.nav-item h3 {
+  margin: 15px 15px;
+  font-family: "Adobe Fan Heiti Std B";
+	font-size: 30px;
+	text-align: left;
+	color: #864900;
+}
+
+#nav-price {
+  margin:15px 30px;
+}
+
+main {
+  width: 1260px;
+	height: 1200px;
+	background-color: #ffc784;
+  float: left;
+}
+
+.jumbotron {
+  width: auto;
+	height: 396px;
+	background-color: #383b40;
+  margin: 59px 125px 63px 114px;
+}
+
+.jumbotron img {
+  margin: 0 167px 0 179px;
+}
+
+.rank {
+  float: left;
+  width: 299px;
+	height: 618px;
+	background-color: #ffdeb8;
+  margin-left: 114px;
+}
+
+.top {
+  float: left;
+  font-family: "Adobe Fan Heiti Std B";
+	font-size: 30px;
+  color: #df7900;
+  margin-top: 54px;
+  margin-left: 16px;
+}
+
+.top h2 {
+  margin-bottom: 90px;
+}
+
+#top-end {
+  margin-bottom: 0;
+}
+
+.name {
+  float: right;
+  font-family: "Adobe Fan Heiti Std B";
+	font-size: 30px;
+  color: #864900;
+  margin-top: 54px;
+  margin-right: 16px;
+}
+
+.name h2 {
+  margin-bottom: 90px;
+}
+
+#name-end {
+  margin-bottom: 0;
+}
+
+.drink {
+  float: left;
+  width: 300px;
+	height: 618px;
+	background-color: #ffdeb8;
+  margin-left: 61px;
+}
+
+.drink-img {
+  float: left;
+  width: 117px;
+  margin-top: 48px;
+  margin-left: 20px;
+}
+
+.drink-img img {
+  margin-bottom: 81px;
+}
+
+#drink-img-end {
+  margin-bottom: 0;
+}
+
+.drink-name {
+  float: right;
+  margin-top: 93px;
+  margin-right: 20px;
+}
+
+.drink-name h2 {
+  font-family: "Adobe Fan Heiti Std B";
+	font-size: 30px;
+	color: #df7900;
+  margin-bottom: 173px;
+}
+
+#drink-name-end {
+  margin-bottom: 0;
+}
+
+.text {
+  float: left;
+  width: 300px;
+	height: 618px;
+  margin-left: 61px;
+}
+
+.text h2 {
+  font-family: "Adobe Fan Heiti Std B";
+	font-size: 30px;
+	text-align: left;
+	color: #864900;
+  margin-top: 17px;
+  line-height: 35px;
+}
+
+.text h1 {
+  font-family: "Adobe Fan Heiti Std B";
+	font-size: 60px;
+	text-align: left;
+	color: #df7900;
+  margin-top: 5px;
+}
+
+.text img {
+  margin-top: 23px;
+}
+
+footer {
+  float: left;
+  width: 1260px;
+	height: 108px;
+	background-color: #ffaf51;
+}
+
+footer h3 {
+  float: left;
+  font-family: "Adobe Fan Heiti Std B";
+	font-size: 30px;
+	text-align: left;
+	color: #864900;
+  margin: 44px 229px 32px 470px;
+}
+
+.social-set {
+  float: left;
+  margin-top: 44px;
+}
+
+.social-set img {
+  margin-right: 17px;
+}
+
+#social-set-end {
+  margin-right: 0;
+}
+@media screen and (max-width: 768px) {
+
+	html{
+		margin:auto;
+	}
+	header {
+	  width: 768px;
+	  height: 200px;
+		position: relative;
+	  background-color: #ffaf51;
+	}
+	.logo-set{
+		margin-top: 50px;
+	}
+	.icon-set{
+		margin-right: 150px;
+	}
+	nav{
+		display: none;
+	}
+	.menu{
+		color: #864900;
+		display: block;
+		font-size: 2em;
+		position: absolute;
+		padding: 0 15px;
+		border-radius: 4px;
+		top: 111px;
+		right: 90px;
+	}
+	main{
+		width: 768px;
+		height: 1275px;
+	}
+	.logo-set img{
+		height: auto;
+		width: 35%;
+		margin-top: 27px;
+	}
+	.logo-set h1{
+		font-size: 4em;
+		color: #864900;
+		-webkit-text-stroke: 0px #864900;
+		margin-top: 30px;
+		margin-left: -35px;
+	}
+	.jumbotron{
+		height: auto;
+		width: 550px;
+	}
+	.jumbotron img{
+		height: auto;
+		width: 70%;
+		margin-left: 100px;
+	}
+	.rank{
+		height: auto;
+		width: 250px;
+		padding-bottom: 50px;
+	}
+	.top h2{
+		font-size: 0.8em;
+	}
+	.name h2{
+		font-size: 0.8em;
+	}
+	.drink{
+		height: auto;
+		width: 250px;
+		margin-left: 48px;
+		padding-bottom: 29px;
+	}
+	.drink-img img{
+		height: auto;
+		width: 125%;
+		margin-left: 30px;
+		margin-bottom: 41px;
+	}
+	.drink-img{
+		margin-top: 29px;
+	}
+	.drink-name h2{
+		display: none;
+	}
+	.text{
+		float: none;
+	}
+	.text h2,.text h1{
+		display: none;
+	}
+	.text img{
+		margin-left: 180px;
+	}
+	footer{
+		width: 768px;
+		height: 72px;
+	}
+	footer h3{
+		margin-left: 325px;
+		margin-top: 25px;
+		font-size: 15px;
+		margin-right: 100px;
+	}
+	.social-set img{
+		height: auto;
+		width: 20px;
+	}
+	.social-set{
+		margin-top: 25px;
+	}
+}
+@media screen and (max-width: 320px) {
+	.icon-set{
+		display: none;
+	}
+	.logo-set img{
+		height: auto;
+		width: 70%;
+		margin-top: 15px;
+		margin-left: -60px;
+	}
+	.logo-set h1{
+		font-size: 2em;
+		color: #864900;
+		-webkit-text-stroke: 0px #864900;
+		margin-top: 15px;
+		margin-left: -65px;
+	}
+	header{
+		width: 320px;
+		height: 120px;
+	}
+	.menu{
+		color: #864900;
+		display: block;
+		font-size: 1.5em;
+		position: absolute;
+		padding: 0 5px;
+		border-radius: 4px;
+		top: 70px;
+		right: 45px;
+	}
+	main{
+		width: 320px;
+		height: 1560px;
+	}
+	.jumbotron{
+		height: auto;
+		width: 220px;
+		margin-left: 50px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.jumbotron img{
+		height: auto;
+		width: 80%;
+		margin-left: 30px;
+	}
+	.rank{
+		margin-left: 50px;
+		width: 220px;
+	}
+	.top h2{
+		font-size: 0.7em;
+	}
+	.name h2{
+		font-size: 0.7em;
+	}
+	.drink{
+		height: auto;
+		width: 220px;
+		margin-left: 50px;
+		margin-top: 20px;
+		padding-bottom: 29px;
+	}
+	.drink-img img{
+		height: auto;
+		width: 125%;
+		margin-left: 20px;
+		margin-bottom: 41px;
+	}
+	.drink-img{
+		margin-top: 29px;
+	}
+	.text img{
+		height: auto;
+		width: 220px;
+		margin-left: -10px;
+	}
+	footer{
+		width: 320px;
+		height: 50px;
+	}
+	footer h3{
+		margin-left: 86px;
+		margin-top: 15px;
+		font-size: 15px;
+		margin-right: 100px;
+	}
+	.social-set img{
+		display: none;
+	}
+}
